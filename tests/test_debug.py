@@ -8,7 +8,7 @@ class TestDebug:
     def test_login_incorrect_username(self, page):
         login_page = LoginPage(page)
         login_page.navigate()
-        login_page.exceute_login("wrong", "username")
+        login_page.execute_login("wrong", "username")
         expect(login_page.error_message).to_have_text("Your username is invalid!")
 
     def test_selecting_checkbox(self, page):

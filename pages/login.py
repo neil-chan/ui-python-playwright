@@ -13,7 +13,7 @@ class LoginPage(BasePage):
     def navigate(self):
         self.page.goto(self.url)
 
-    def exceute_login(self, username, password):
+    def execute_login(self, username, password):
         self.username_field.fill(username)
         self.password_field.fill(password)
         self.submit_button.click()
