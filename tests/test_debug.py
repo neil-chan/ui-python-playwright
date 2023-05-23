@@ -1,7 +1,6 @@
 from pages.checkbox import CheckboxPage
 from pages.login import LoginPage
 from playwright.sync_api import expect
-import time
 
 
 class TestDebug:
