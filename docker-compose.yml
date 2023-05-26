@@ -2,7 +2,7 @@ version: '3'
 services:
   tests:
     image: playw_python
-    command: ./execute_tests.sh
+    command: ./entrypoint.sh
     depends_on:
       - setup
     volumes:

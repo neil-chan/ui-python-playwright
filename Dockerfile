@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/playwright/python:v1.27.0-focal
+FROM mcr.microsoft.com/playwright/python:next-jammy-arm64
 WORKDIR /src
 COPY . /src
 RUN pip install -r requirements.txt

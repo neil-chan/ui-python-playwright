@@ -1,11 +1,11 @@
-test:
+debug-test:
 	pytest tests
 
 codegen:
 	playwright codegen https://practicetestautomation.com/practice-test-login/
 
-docker-run: 
+test: 
 	docker-compose run tests
 
-docker-build:
+build:
 	docker-compose build --no-cache setup

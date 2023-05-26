@@ -1,6 +1,6 @@
 RUNNING LOCALLY:
-`make test`
+`make debug-test`
 
 RUNNING IN DOCKER:
-* rebuild image: make docker-build
-* run test: make docker-run
+* rebuild image: make build
+* run test: make test
